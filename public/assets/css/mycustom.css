@@ -1,0 +1,37 @@
+.pbld {
+  font-weight: 700 !important;
+}
+.selected {
+  background-color: rgb(177, 177, 171);
+}
+.txtright {
+  text-align: right !important;
+}
+
+/* Custom styling for the DataTables processing indicator */
+div.dataTables_processing {
+  z-index: 11000; /* High z-index to ensure it is above other content */
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.is-invalid {
+  border-color: #dc3545;
+}   
+.checkbox-label {
+  margin-left: 0.5rem;
+}
+.form-check-inline {
+  margin-right: 1rem;
+}
+.legend-text {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.custom-card-bg {
+  background-color: #dae0e6; /* Darker shade background color */
+  color: #2b2a2abe; /* Text color to contrast with the darker background */
+}
